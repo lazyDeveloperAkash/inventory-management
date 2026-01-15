@@ -21,8 +21,6 @@ yarn-error.log*
 lerna-debug.log*
 
 # env files
-.env
-.env.local
 .env.*.local
 
 # vercel
@@ -33,7 +31,6 @@ lerna-debug.log*
 next-env.d.ts
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -60,3 +57,8 @@ logs
 .gitignore
 client/.gitignore
 server/.gitignore
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+node_modules

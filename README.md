@@ -11,7 +11,7 @@ https://inventory-management-1oge.vercel.app
 
 ### 2. Backend
 ```
-https://inventory-management-apyk.vercel.app
+https://inventory-management-backend-49re.onrender.com
 ```
 
 ## Features
