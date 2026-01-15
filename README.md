@@ -2,6 +2,18 @@
 
 A modern, full-stack inventory management application built with React.js, Node.js, Express, and MongoDB.
 
+## Live URL
+
+### 1. Frontend
+```
+https://inventory-management-1oge.vercel.app
+```
+
+### 2. Backend
+```
+https://inventory-management-apyk.vercel.app
+```
+
 ## Features
 
 - **Product CRUD Operations**: Create, read, update, and delete products with name, SKU, quantity, and price fields
