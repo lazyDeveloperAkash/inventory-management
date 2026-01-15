@@ -50,12 +50,10 @@ app.use((req, res) => {
   res.status(404).json({ error: "Route not found" });
 });
 
-const ENV = process.env.NODE_ENV;
 // Start server
-ENV === "development" &&
-  app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-    console.log(`Environment: ${process.env.NODE_ENV || "development"}`);
-  });
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+  console.log(`Environment: ${process.env.NODE_ENV || "development"}`);
+});
 
 export default app;
