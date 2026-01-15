@@ -19,9 +19,9 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 const corsOptions = {
   origin: [
-    "http://localhost:3000",
-    "http://localhost:5173",
-    process.env.FRONTEND_URL || "http://localhost:3000",
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:5173"
+      : process.env.FRONTEND_URL,
   ],
   credentials: true,
   optionsSuccessStatus: 200,
