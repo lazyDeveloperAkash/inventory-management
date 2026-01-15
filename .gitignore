@@ -55,3 +55,8 @@ Thumbs.db
 # Logs
 logs
 *.log
+
+#git ignore
+.gitignore
+client/.gitignore
+server/.gitignore
